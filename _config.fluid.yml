@@ -4,6 +4,8 @@
 
 # Site
 title: Hexo
+navbar:
+  blog_title: Tserluir の 博客
 subtitle: ''
 description: ''
 keywords:
