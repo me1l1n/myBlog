@@ -6,6 +6,11 @@
 title: Hexo
 navbar:
   blog_title: Tserluir の 博客
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于' }
+    - { key: 'links', link: '/links/', icon: 'iconfont icon-link-fill' }
 index:
   slogan:
     enable: true
@@ -119,3 +124,21 @@ waline:
   serverURL: https://my-own-blog-gt6f.vercel.app/
   wordLimit: 200
   shortname: fluid
+
+about:
+  avatar: /img/avatar.jpg
+  name: "Tserluir"
+  intro: "联系方式：tserluir@gmail.com"
+  icons:
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com', tip: 'GitHub' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/img/favicon.jpg' }
+
+links:
+  items:
+    - {
+      title: 'amtoaer',
+      intro: '本人的大哥舍友！',
+      link: 'https://blog.allwens.work',
+      avatar: '/img/amtoaer.bmp'
+    }
+  default_avatar: /img/avatar.png
