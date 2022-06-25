@@ -116,4 +116,6 @@ post:
     type: waline
 
 waline:
+  serverURL: https://my-own-blog-gt6f.vercel.app/
+  wordLimit: 200
   shortname: fluid
